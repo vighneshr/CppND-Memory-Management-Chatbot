@@ -15,6 +15,9 @@ class ChatLogic
 private:
     //// STUDENT CODE
     ////
+    //ChatLogic &operator= (const ChatLogic &source) {
+    //    std::cout << "chatlogic operator assignment" << std::endl;
+    //}
 
     // data handles (owned)
     std::vector<GraphNode *> _nodes;
